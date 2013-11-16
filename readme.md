@@ -1,5 +1,7 @@
+# SomePackage
+
 A simple example of my proposed "how to package tests" standard.  What do
-you think?  --titus
+you think? --titus
 
 --
 
@@ -7,14 +9,14 @@ To run the tests, you can do:
 
   % python -m somepackage.tests.__main__
 
-under Python 2.5 or above, and
+Under Python 2.5 or above, and:
 
   % python setup.py test
 
 if you have setuptools or Distribute installed.  This mechanism will also
 be supported under distutils2, or distutils under 3.3 and above.
 
-You can also run
+You can also run:
 
   % nosetests
 
