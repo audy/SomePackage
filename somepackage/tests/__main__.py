@@ -2,7 +2,19 @@ import unittest
 import somepackage.tests
 
 def main():
-    ''' Run all of the tests when run as a module with -m. '''
+    '''
+    Runs the tests
+
+    # using python -m
+    $ python -m somepackage.tests
+
+    # or
+    >>> import somepackage.tests.main
+    >>> main()
+
+    # or
+    $ nosetests
+    '''
     suite = somepackage.tests.get_suite()
     runner = unittest.TextTestRunner()
     runner.run(suite)
