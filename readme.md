@@ -5,7 +5,14 @@ you think? --titus
 
 --
 
-To run tests:
+## Installting
+
+```sh
+# you need setuptools
+$ python setup.py install
+```
+
+## Testing
 
 ```sh
 $ python -m somepackage.tests.__main__
