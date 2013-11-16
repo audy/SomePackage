@@ -3,6 +3,8 @@
 A simple example of my proposed "how to package tests" standard.  What do
 you think? --titus
 
+I'm turning this into a boilerplate for future Python projects. --austin
+
 --
 
 ## Installing
