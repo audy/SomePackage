@@ -1,4 +1,3 @@
-# RUNME as 'python -m somepackage.tests.run'
 import unittest
 import somepackage.tests
 
