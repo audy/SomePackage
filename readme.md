@@ -14,6 +14,5 @@ $ python -m somepackage.tests.__main__
 $ python setup.py tests # > python 2.5
 
 # like nose?
-
 $ nosetests
 ```
