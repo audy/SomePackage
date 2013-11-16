@@ -8,14 +8,12 @@ you think? --titus
 To run tests:
 
 ```sh
+$ python -m somepackage.tests.__main__
 
-    $ python -m somepackage.tests.__main__
+# Python > 2.5 w/ setuptools or Distribute
+$ python setup.py tests # > python 2.5
 
-    # Python > 2.5 w/ setuptools or Distribute
-    $ python setup.py tests # > python 2.5
+# like nose?
 
-    # like nose?
-
-    $ nosetests
-
+$ nosetests
 ```
