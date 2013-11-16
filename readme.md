@@ -5,7 +5,7 @@ you think? --titus
 
 --
 
-## Installting
+## Installing
 
 ```sh
 # you need setuptools
