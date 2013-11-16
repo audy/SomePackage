@@ -12,6 +12,11 @@ I'm turning this into a boilerplate for future Python projects. --austin
 ```sh
 # you need setuptools
 $ python setup.py install
+
+# there is a default executable with logging
+# and argument parsing. See `somepackage/__main__.py`
+$ spackage
+INFO:root:Hello, World!
 ```
 
 ## Testing
