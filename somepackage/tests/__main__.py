@@ -1,16 +1,8 @@
 import unittest
-import somepackage.tests
 
 def main():
     '''
     Runs the tests
-
-    # using python -m
-    $ python -m somepackage.tests
-
-    # or
-    >>> import somepackage.tests.main
-    >>> main()
 
     # or
     $ nosetests
