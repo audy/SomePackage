@@ -3,10 +3,10 @@ import unittest
 from somepackage import SomeClass
 
 class TestSomething(unittest.TestCase):
-    ''' Example of a test '''
+    ''' Example of a test case '''
 
     def test_some_method(self):
-        ''' You should write a test '''
+        ''' Example of a test '''
 
         the_answer = SomeClass.some_method()
         self.assertEqual(the_answer, 42)
