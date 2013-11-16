@@ -1,8 +1,10 @@
 from setuptools import setup
 
+from somepackage import __version__
+
 setup(
     name='SomePackage',
-    version='0.1.0',
+    version=__version__.string,
     author='C. Titus Brown',
     author_email='titus@idyll.org',
     packages=['somepackage', 'somepackage.tests'],
