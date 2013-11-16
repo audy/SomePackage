@@ -11,5 +11,10 @@ setup(
     url='http://pypi.python.org/pypi/SomePackage/',
     license='LICENSE.txt',
     description='Useful package-test-related stuff.',
-    test_suite='somepackage.tests.get_suite'
+    test_suite='somepackage.tests.get_suite',
+    entry_points = {
+        'console_scripts': [
+            'spackage = somepackage.__main__:main'
+        ]
+    }
 )
