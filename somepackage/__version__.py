@@ -1,4 +1,4 @@
-# Use semantic versioning (http://semver.org)
+# Use semantic versioning (http://semver.org) or don't
 
 MAJOR=0
 MINOR=1
