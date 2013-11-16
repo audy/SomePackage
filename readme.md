@@ -22,8 +22,6 @@ You can also run:
 
 with nose.
 
-How about py.test?  Other test runners?
-
 ---
 
 Rules, in brief:
