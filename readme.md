@@ -5,31 +5,17 @@ you think? --titus
 
 --
 
-To run the tests, you can do:
+To run tests:
 
-    % python -m somepackage.tests.__main__
+```sh
 
-Under Python 2.5 or above, and:
+    $ python -m somepackage.tests.__main__
 
-    % python setup.py test
+    # Python > 2.5 w/ setuptools or Distribute
+    $ python setup.py tests # > python 2.5
 
-if you have setuptools or Distribute installed.  This mechanism will also
-be supported under distutils2, or distutils under 3.3 and above.
+    # like nose?
 
-You can also run:
+    $ nosetests
 
-    % nosetests
-
-with nose.
-
----
-
-Rules, in brief:
-----------------
-
- - for a given package, 'python -m somepackage.tests.__main__' should run
-   its tests, if any.
-
- - no code outside of 'somepackage.tests' should depend on
-   'somepackage.tests'.  This is so that distrib packagers (debian,
-   redhat) can omit the sub-package from the non-devel install.
+```
