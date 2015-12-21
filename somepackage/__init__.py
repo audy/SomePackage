@@ -1,1 +1,1 @@
-from someclass import *
+from . someclass import *

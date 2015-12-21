@@ -5,9 +5,7 @@ from somepackage import __version__
 setup(
     name='SomePackage',
     version=__version__.string,
-    author='C. Titus Brown, Austin G. Davis-Richardson',
-    author_email='titus@idyll.org, harekrishna@gmail.com',
-    packages=['somepackage', 'somepackage.tests'],
+    packages=['somepackage'],
     url='http://pypi.python.org/pypi/SomePackage/',
     license='LICENSE.txt',
     description='Useful package-test-related stuff.',
